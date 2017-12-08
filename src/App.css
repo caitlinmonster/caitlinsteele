@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bungee');
+
+a {
+    color: #32b3ae;
+    display: block;
+    margin: 1em;
+    font-size: 1em;
+    font-family: 'Bungee', cursive;
+    text-decoration: none;
+}
+
+p {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-family: 'Bungee', cursive;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 200s linear;
+  border-radius: 500px;
+}
+
+.App-header {
+  background-image: repeating-linear-gradient(45deg, #32b3ae, #32b3ae 30px, #26a09b 30px, #26a09b 60px);
+  padding: 3em;
+}
+
+.App-title {
+  font-size: 3em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
